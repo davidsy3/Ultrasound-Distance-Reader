@@ -69,7 +69,48 @@ Refer to the pictures below for wiring setup:
     </tr>
 </table>
 
+## Usage
 
+```c
+// Include the library code for LCD Screen
+#include <LiquidCrystal.h>
+
+// Turn off all LED's
+void turnOffLEDS() {
+  digitalWrite(red_LED, LOW);
+  digitalWrite(yellow_LED, LOW);
+  digitalWrite(green_LED, LOW);
+}
+
+// If the LED isn't set, turn off all LED's and turn it on and set to currentLED
+void setLED(int led) {
+  if (led != currentLED) {
+    turnOffLEDS();
+    digitalWrite(led, HIGH);
+    currentLED = led;
+  }
+}
+
+// Write to specific line and character to LCD screen
+void writeToScreen(float d) {
+  lcd.setCursor(0, 1);
+  lcd.print(d);
+  lcd.setCursor(7, 1);
+  lcd.print("cm");
+}
+
+// Obtain distance from ultrasonic sensor
+long getDistance() {
+  digitalWrite(trigPin, LOW);
+  delayMicroseconds(2);
+  digitalWrite(trigPin, HIGH);
+  delayMicroseconds(10);
+  digitalWrite(trigPin, LOW);
+
+  long duration = pulseIn(echoPin, HIGH, 25000);
+  return duration / 58;
+}
+```
 
 ## Contributing
 
