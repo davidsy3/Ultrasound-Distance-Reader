@@ -12,14 +12,14 @@ Refer to the pictures below for wiring setup:
 
 ### Circut
 
-![Circut](assets/Ultrasonic Distance Reader.pdf)
+![Circut](assets/UltrasonicDistanceReader.pdf)
 
 ### TinkerCad
 
 <img width="1710" height="855" alt="Ultrasonic Distance Reader" src="https://github.com/user-attachments/assets/48e244a3-cd20-4857-ac48-4e7d56fc28e3" />
 
 ### Requirements
-![Required Parts](assets/bom.csv)
+![Required Parts](assets/parts.csv)
 
 
 
