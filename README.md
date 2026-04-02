@@ -1,5 +1,7 @@
 # Ultrasonic-Distance-Reader
-My very first Arduino and embedded system project. To deepen my knowledge of robotics and take my passion further, I decided to do this simple project as a good entry point.
+My very first Arduino and embedded system project. To deepen my knowledge of robotics and take my passion further, I decided to do this simple project as a good entry point. 
+
+This is a simple Ultrasonic Distance Reader that will calculate the distance of an object, display the distance on a LCD display, and light up a specific colored LED depeneding on the distance of the object. Red being less than 10cm, yellow being >10 and <20 cm, and green being >20cm. This simple project could be used for more sophisticated projects like [this Hand-Following Car](https://www.instructables.com/Autonomous-Hand-Following-Car-Arduino-and-Ultrason/).
 
 ## Visuals
 
