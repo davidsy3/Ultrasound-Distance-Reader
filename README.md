@@ -12,15 +12,62 @@ Refer to the pictures below for wiring setup:
 
 ### Circut
 
-![Circut](assets/UltrasonicDistanceReader.pdf)
+<img width="2200" height="1700" alt="Ultrasonic-1" src="https://github.com/user-attachments/assets/30707a7b-403a-4e55-ba30-47c6499562dc" />
+
 
 ### TinkerCad
 
 <img width="1710" height="855" alt="Ultrasonic Distance Reader" src="https://github.com/user-attachments/assets/48e244a3-cd20-4857-ac48-4e7d56fc28e3" />
 
 ### Requirements
-![Required Parts](assets/parts.csv)
 
+<table>
+    <tr>
+        <td>Name</td>
+        <td>Quantity</td>
+        <td>Component</td>
+    </tr>
+    <tr>
+        <td>U1</td>
+        <td>1</td>
+        <td> Arduino Uno R3</td>
+    </tr>
+    <tr>
+        <td>U2</td>
+        <td>1</td>
+        <td> LCD 16 x 2</td>
+    </tr>
+    <tr>
+        <td>R1, R2, R3, R4</td>
+        <td>4</td>
+        <td>220 Ω Resistor</td>
+    </tr>
+    <tr>
+        <td>Rpot2</td>
+        <td>1</td>
+        <td>10000 Ω Potentiometer</td>
+    </tr>
+    <tr>
+        <td>D1</td>
+        <td>1</td>
+        <td>Green LED</td>
+    </tr>
+    <tr>
+        <td>D2</td>
+        <td>1</td>
+        <td>Yellow LED</td>
+    </tr>
+    <tr>
+        <td>D3</td>
+        <td>1</td>
+        <td>Red LED</td>
+    </tr>
+    <tr>
+        <td>DIST1</td>
+        <td>1</td>
+        <td> Ultrasonic Distance Sensor (4-pin)</td>
+    </tr>
+</table>
 
 
 
