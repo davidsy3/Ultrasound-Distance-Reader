@@ -116,4 +116,4 @@ long getDistance() {
 
 Pull requests are welcome. Please star this repo if you found it helpful. 
 
-If you use this in your own project update the code with the correct pins.
+If you use this in your own project, update the code with the correct corresponding pins.
