@@ -19,15 +19,7 @@ Refer to the pictures below for wiring setup:
 <img width="1710" height="855" alt="Ultrasonic Distance Reader" src="https://github.com/user-attachments/assets/48e244a3-cd20-4857-ac48-4e7d56fc28e3" />
 
 ### Requirements
-[bom.csv](https://github.com/user-attachments/files/26444385/bom.csv)Name,Quantity,Component
-"U1",1," Arduino Uno R3"
-"U2",1," LCD 16 x 2"
-"R1, R2, R3, R4",4,"220 Ω Resistor"
-"Rpot2",1,"10000 Ω Potentiometer"
-"D1",1,"Green LED"
-"D2",1,"Yellow LED"
-"D3",1,"Red LED"
-"DIST1",1," Ultrasonic Distance Sensor (4-pin)"
+![Required Parts](assets/bom.csv)
 
 
 
