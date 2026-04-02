@@ -3,7 +3,7 @@ My very first Arduino and embedded system project. To deepen my knowledge of rob
 
 ## Visuals
 
-
+![Project Demo](assets/DistanceReader.gif)
 
 ## Installation
 Go to [Arduino] (https://support.arduino.cc/hc/en-us/articles/360019833020-Download-and-install-Arduino-IDE) and follow the instructions to download the Arduino IDE.
@@ -12,7 +12,7 @@ Refer to the pictures below for wiring setup:
 
 ### Circut
 
-[Ultrasonic Distance Reader.pdf](https://github.com/user-attachments/files/26444475/Ultrasonic.Distance.Reader.pdf)
+![Circut](assets/Ultrasonic Distance Reader.pdf)
 
 ### TinkerCad
 
